@@ -1,0 +1,32 @@
+body {
+
+    padding: 8px;
+}
+
+button {
+    border-radius: 8px;
+    padding: 8px 16px;
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: #2563EB;
+    border: none;
+    color: white;
+}
+
+#timeline {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.container {
+    padding: 4px;
+    border-radius: 8px;
+    border: 2px solid grey;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.container > * {
+    place-self: center;
+}
